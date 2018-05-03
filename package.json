@@ -8,6 +8,10 @@
   },
   "author": "AXBRITT",
   "license": "UNLICENSED",
+  "repository":{
+    "type":"git",
+    "url":"https://github.com/apb21/S-P"
+  },
   "devDependencies": {
     "bootstrap": "^4.1.1",
     "electron": "^1.8.6",
