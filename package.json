@@ -8,15 +8,16 @@
   },
   "author": "AXBRITT",
   "license": "UNLICENSED",
-  "repository":{
-    "type":"git",
-    "url":"https://github.com/apb21/S-P"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/apb21/S-P"
   },
   "devDependencies": {
     "bootstrap": "^4.1.1",
     "electron": "^1.8.6",
     "font-awesome": "^4.7.0",
     "jquery": "^3.3.1",
-    "popper.js": "^1.14.3"
+    "popper.js": "^1.14.3",
+    "two.js": "^0.7.0-alpha.1"
   }
 }
