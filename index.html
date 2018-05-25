@@ -6,9 +6,11 @@
       <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
       <link rel="stylesheet" href="resources/css/index.css">
     </head>
-    <body id="dom-body">
+    <body>
       <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" href="#">S&P Cost Tool</a>
+        <a class="navbar-brand" href="#">
+          S&P Cost Tool
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -44,13 +46,20 @@
           Chrome <script>document.write(process.versions.chrome)</script>,
           and Electron <script>document.write(process.versions.electron)</script>.
         </p>
-        <div id="loading-div">
+        <div id="loading-row" class="row">
+          <div class="col-5"></div>
+          <div id="loading-div" class="col-2">
+            <svg id="loading-gauge"></svg>
+          </div>
+          <div class="col-5"></div>
         </div>
       </div>
       <script src="node_modules/jquery/dist/jquery.min.js"></script>
       <script src="node_modules/popper.js/dist/popper.min.js"></script>
       <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
       <script src="node_modules/two.js/build/two.min.js"></script>
+      <script src="node_modules/d3/dist/d3.min.js"></script>
+      <script src="resources/js/liquidFillGauge.js"></script>
       <script src="resources/js/logo.js"></script>
     </body>
   </html>
