@@ -12,7 +12,7 @@
     "type": "git",
     "url": "https://github.com/apb21/S-P"
   },
-  "devDependencies": {
+  "dependencies": {
     "bootstrap": "^4.1.1",
     "d3": "^5.4.0",
     "electron": "^1.8.6",
